@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Swech</title>
+<style>
+.reg
+{
+float:left;
+margin-left:100px;
+    
+    text-decoration : none;
+    color : white;
+    padding : 10px 20px;
+    border : 1px solid white;
+    width:250px;
+    height:50px;
+    font-size:30px;
+    text-align:center;
+    background-color:lightseagreen;
+    border-radius:25px;
+    display:inline;
+}
+.reg:hover
+{
+   background-color:darkseagreen;
+   color:black;
+}
+.login
+{  
+    float:right;
+    margin-right:100px;
+    text-decoration : none;
+    color : white;
+    padding : 10px 20px;
+    border : 1px solid white;
+    width:250px;
+    height:50px;
+    font-size:30px;
+    text-align:center;
+    background-color:lightseagreen;
+    border-radius:25px;
+    display:inline;
+}
+.login:hover
+{
+   background-color:darkseagreen;
+   color:black;
+}
+body
+{
+   background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('logo.png');
+ background-repeat:no-repeat;
+  background-position:center;
+  
+}
+</style>
+</head>
+<body>
+<div style:"display:flex;justify-content:space-between; width:100%;">
+<div  style="margin-left:160px; margin-top:250px; font-size:30px; font-weight:bold; color:black;">
+New User?
+</div>
+<div class="reg">
+<form action="reghtml.html">
+<input type="submit" value="Register">
+</form>
+</div>
+<div  style="margin-left:1000px; font-size:30px; font-weight:bold; color:black;">
+Existing User?
+</div>
+<div class="login">
+<form action="loginhtml.html">
+<input type="submit" value="Login">
+</form>
+</div>
+</div>
+</body>
+</html>

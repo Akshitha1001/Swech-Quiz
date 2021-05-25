@@ -1,0 +1,58 @@
+<html>
+<head>
+<title> Swech Register Page</title>
+<style>
+body
+{
+background-color:powderblue;
+text-align:center;
+ }
+.reg
+{
+  color:black;
+  text-align:center;
+  font-size:30px;
+  margin-top:50px;
+  fonr-weight:bold;
+ 
+}
+.logo
+{
+   margin-top:10px;
+   border-radius:50%;
+   margin-left:450px;
+}
+.button
+{
+    margin-left:550px;
+    text-decoration : none;
+    color : white;
+    padding : 10px 20px;
+    border : 1px solid white;
+    width:250px;
+    height:50px;
+    font-size:30px;
+    text-align:center;
+    background-color:AntiqueWhite;
+    border-radius:25px;
+}
+.button:hover
+{
+   background-color:DarkSalmon;
+   color:black;
+}
+</style>
+</head>
+<body>
+<h1 style="margin-top:100px;"> Register </h1>
+<div class="reg">
+<form action="regphp.php" method="post">
+Enter Email Id     <input type="email" name="uid"><br><br>
+Enter Password     <input type="password" name="pass"><br><br>
+<div class="button">
+<input type="submit" value="Register">
+</div>
+</div>
+</form>
+</body>
+</html>

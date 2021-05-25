@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> Swech -- Your Performance</title>
+<link rel="stylesheet" type="text/css" href="displayscore.css">
+</head>
+<body>
+<h1><center> Your Score </center></h1>
+<?php
+session_start();
+$conn=mysqli_connect("localhost:3306","root","12345","Swech");
+$y=$_SESSION['uid'];
+if(!$conn)
+echo "Failed\n";
+else
+echo " Success\n" ;
+$sql1="Select * from Score where Email= '$y' ";
+$result=mysqli_query($conn,$sql1);
+if($result)
+{
+     $row=mysqli_fetch_assoc($result);
+     $Maths_Score=$row['Mathemematics'];
+     $C_Score= $row["C"];
+     $CPP_Score= $row["CPP"];
+     $JAVA_Score= $row["JAVA"];
+     $Python_Score=$row["Python"];
+     $gk_Score=$row["General_Knowledge"];
+    
+}
+echo "$row";
+?>
+</body>
+</html>
+
+
+

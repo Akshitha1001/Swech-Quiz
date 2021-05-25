@@ -1,0 +1,95 @@
+*{
+   margin:0;
+   padding:0;
+   font-family:century gothic;
+}
+.header
+{
+  background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('quiz1.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+}
+
+ul.main
+{
+  float:right;
+  list-style-type : none;
+  margin-top:25px;
+  margin-right:150px;
+}
+ul.main li
+{
+  display : inline-block;
+}
+ul.main li a
+{
+  text-decoration : none;
+  color : white;
+  padding : 5px 20px;
+  border : 1px solid white;
+
+
+}
+ul.main li.active a
+{
+   background-color:white;
+   color:black;
+}
+ul.main li a:hover
+{
+  background-color:white;
+  color:black;
+}
+.topic ul li a
+{
+  list-style-type:none;
+  top:10px;
+  color:white;
+  text-decoration:none;
+  margin-left:15%;
+  font-size:30px;
+  padding : 5px 5px;
+  border : 0.5px solid transparent;
+  transition : 0.5s ease;
+
+}
+.PL ul li a
+{
+  list-style-type: none;
+  text-decoration:none;
+  top:10px;
+  color:white;
+  margin-left:20%;
+  font-size:30px;
+  padding : 5px 5px;
+  border : 0.5px solid transparent;
+ 
+  transition : 0.5s ease;
+}
+.topic ul li.Main_topic 
+{
+  list-style-type:none;
+  top:10px;
+  color:white;
+  margin-left:15%;
+  font-size:30px;
+  padding : 5px 5px;
+  border : 0.5px solid transparent;
+  transition : 0.5s ease;
+}
+.topic ul li a:hover
+{
+   background-color:powderblue;
+   color:black;
+}
+.heading
+{
+    margin-left:5%;
+    top:20px;
+    font-weight: bold;
+    font-size:45px;
+    color:white;
+}
+ 
+
